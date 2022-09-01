@@ -1,0 +1,407 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --white:white;
+}
+header{
+    position: relative;
+    background-image:url(./mainpage.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:var(--white);
+}
+
+header #header1{
+    /* background-color: blue; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+
+    /* flex-direction: column; */
+    justify-items: center;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 10vh;
+}
+header #header1 #downapp{
+    /* padding: 0px 0 20px 0; */
+    padding-bottom: 10px;
+    /* color:aqua; */
+    /* border: 1px red solid; */
+}
+header #header1 ul{
+    display: flex;
+    list-style: none;
+}
+header #header1 ul li{
+    margin:0 20px ;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+#header1 #dowmapp{
+    min-width: 110px;
+    font-size: .8em;
+}
+header  img{
+    width: 20px;
+}
+header #headermain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:60vh;
+}
+header #headermain div:nth-child(1){
+    font-size: 3.5em;
+    font-family:"Permanent marker",sans-serif;
+    padding-bottom:20px;
+    font-weight:300;
+}
+header #headermain div:nth-child(2){
+    font-size: 2.5em;
+    font-family:sans-serif;
+    padding-bottom:20px;
+    font-weight:300;
+}
+header input{
+    border: 1px solid white;
+    font-size: 1em;
+    padding: 5px 20px 5px 5px;
+    align-items: center;
+    justify-content: start;
+    background-color:var(#000);
+    color: black;
+}
+header #headermain div:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border: 1px gray solid;
+    padding:10px 25px;
+    border-radius:10px;
+    background-color:var(--white);
+}
+main{
+    display: flex;
+    width:80vw;
+    padding:0 1vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,1fr);
+    gap: 50px;
+    border-top:20px ;
+}
+main #main1{
+        /* display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(30%,300px));
+        grid-auto-flow:column; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding:20px 0 ;
+        justify-content: space-evenly;
+        align-items: center;
+        row-gap:5vh;
+}
+main #main1 #main11,#main12,#main13{
+    padding: 0px 20px;
+    max-width:30%;
+    min-width:20%;
+    height: 40vh;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+#main11{
+    background-image: url(./orderonline.jpeg); 
+}
+#main12{
+    background-image: url(./dining.jpeg); 
+}
+#main13{   
+    background-image: url(./nightouts.jpeg); 
+}
+#main1 h3,h3~div{
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 6px;
+    color: black;
+    border: 1px solid transparent;
+    padding: 5px;
+    max-width:90%;
+    border-radius: 15px;
+    background-color:var(--white);   
+}
+main #main2{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,1fr);
+    grid-template-rows: 5px 50px;
+    justify-items: center;
+    align-items:stretch;   
+    height: 70vh;
+    row-gap: 5vh;
+}
+#main20{
+    width:100%;
+    height:5vh;
+    grid-column: span 4;
+}
+#main21{
+    width:100%;
+    grid-column: span 4;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    padding-top:20px ;
+    justify-content: space-between;
+    align-items: center;
+}
+#main21 a{
+    text-decoration: none;
+    padding-right: 30px;
+}
+main #main2 #main23,#main22,#main24,#main25{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    width:90%;
+    margin: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:end;
+    align-items:center;  
+    border-radius: 20px;
+}
+#main22{
+    background-image: url(./bestofchennai.jpg); 
+}
+#main23{
+    background-image: url(./briyani.jpg); 
+}
+#main24{
+    background-image: url(./barandpubs.jpg); 
+}
+#main25{
+    background-image: url(./trending.png); 
+}
+main #main30{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+main #main30 .main31{
+    width:290px;
+    min-width:150px;
+    padding:20px;
+    box-sizing: border-box;
+    margin: 20px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow:0px 0px 5px rgb(175, 169, 169);
+    border-radius:10px;
+}
+.main31 p{
+    font-size:100%;
+    font-weight:500;
+    color: rgb(30, 39, 39);
+}
+#main3>p{
+    font-size: 2em;
+    color: rgb(30, 39, 39);
+}
+
+main #main4{
+    /* position: relative; */
+    top: 0;
+    bottom: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    max-width:90%;
+}
+#main4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:start;
+    justify-content: center;
+    }
+main #main4 #main41{
+    margin: 0 auto;
+}
+main #main4 #main42 #para1{font-size: 2.5em;}
+main #main4 #main42{
+    padding: 20px;
+    margin: 0 auto;
+    width:60% ;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:start;
+    color: rgb(30, 39, 39);
+}
+#main4 #main42 #buttons{
+    height: 40px;   
+    margin: 20px 0;
+    /* border: 1px red solid; */
+    /* margin: 100px 0; */
+    /* border: 1px red solid; */
+    /* display: flex; */
+    align-items: center;
+}
+#main4 #main42 #buttons input{
+    max-width:250px;
+    height: 40px;
+    padding: 0 5px;
+    border:1.5px solid rgb(204, 93, 93);
+    border-radius: 8px;
+}
+#main4 #main42 #buttons button{
+    min-width:100px;
+    border-radius: 8px;
+    background-color: rgb(204, 93, 93);
+    height: 40px;
+    border: transparent;
+    margin: 10px 0;
+    padding:0 10px;
+}
+#main4 #main42 #apppic img{
+    width:30%;
+}
+#main5 .main51{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    box-shadow:0px 0px 2px rgb(175, 169, 169);
+    border-radius: 8px;
+}
+#main5 .main52{
+    display: none;
+    padding: 20px 40px;
+    text-align: justify;
+    border-radius: 8px;
+}
+#main5 .main50:hover > .main52{
+    display: block;
+}
+footer{
+    
+    position: relative;
+    width:80vw;
+    padding:0 1vw;
+    margin: 40px auto 0 auto;
+    
+    /* box-shadow:5px 5px 10px rgb(175, 169, 200),-5px 5px 10px rgb(175, 169, 200); */
+    display: grid;
+    gap: 20px;
+    border-bottom:20px ;
+}
+footer #main61{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 40px;
+}
+footer img{
+    width: 20px;
+}
+#main61 #langs{
+    display: flex;   
+    /* border: 1px red solid; */
+    /* align-items: center; */
+    margin: 20px 0;
+    list-style: none;
+}
+#main61 #langs li{
+    display: flex;
+    align-items: center;
+    padding:10px 20px;
+    border: 1px solid rgb(129, 123, 123);
+    border-radius: 10px;
+}
+footer #main62{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer #main62 h6{
+    padding: 30px 0 10PX 0;
+    font-size: .8em;
+}
+footer #main62 p{
+    padding: 8px 0;
+}
+footer #main62 #links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer #main62 #links img{
+    width: 30px;
+}
+nav{
+    display: none;
+    width: 100vw;
+    padding: 2vh 20px;
+    
+}
+/* nav img{
+    width: ;
+} */
+nav>#nav1> img{
+    background-color:var(--white);
+    width: 30px;
+    border-radius: 5px;
+}
+nav div li{
+    display:none;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 8px;
+    list-style: none;
+    line-height: 75px;
+    align-items: center;
+    justify-content: start;
+    padding:0 20px ;
+    width: 240px;
+    box-shadow:0px 0px 2px rgb(175, 169, 169);
+}
+#main3 img{
+    width: 20px;
+}
+#main5 img{
+    width: 20px;
+}
+@media (max-width:400px){
+   nav{
+    display: block;
+   }
+   header #header1{
+    display:none;
+   }
+   #headermain{
+    width: 300px;
+    font-size:.8em;
+   }
+   nav :hover ul li
+   {
+    display:block;
+   }
+}
