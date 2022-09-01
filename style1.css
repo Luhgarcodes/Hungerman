@@ -121,13 +121,13 @@ main #main1 #main11,#main12,#main13{
     align-items: center;
 }
 #main11{
-    background-image: url(./orderonline.jpeg); 
+    background-image: url(./images/orderonline.jpeg); 
 }
 #main12{
-    background-image: url(./dining.jpeg); 
+    background-image: url(./images/dining.jpeg); 
 }
 #main13{   
-    background-image: url(./nightouts.jpeg); 
+    background-image: url(./images/nightouts.jpeg); 
 }
 #main1 h3,h3~div{
     align-items: center;
@@ -183,16 +183,16 @@ main #main2 #main23,#main22,#main24,#main25{
     border-radius: 20px;
 }
 #main22{
-    background-image: url(./bestofchennai.jpg); 
+    background-image: url(./images/bestofchennai.jpg); 
 }
 #main23{
-    background-image: url(./briyani.jpg); 
+    background-image: url(./images/briyani.jpg); 
 }
 #main24{
-    background-image: url(./barandpubs.jpg); 
+    background-image: url(./images/barandpubs.jpg); 
 }
 #main25{
-    background-image: url(./trending.png); 
+    background-image: url(./images/trending.png); 
 }
 main #main30{
     display: flex;
